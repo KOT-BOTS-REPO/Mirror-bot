@@ -1,3 +1,5 @@
+# (c) No One 
+
 import shutil, psutil
 import signal
 import os
