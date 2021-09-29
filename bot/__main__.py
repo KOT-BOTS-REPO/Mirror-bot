@@ -51,8 +51,8 @@ This bot can mirror all your links to Google Drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Main Channel", "https://t.me/HiroshiBots")
-    buttons.buildbutton("Leech Group", "https://t.me/Hiroshi_LeexhZone")
+    buttons.buildbutton("Main Channel", "https://t.me/KOT_BOTS")
+    buttons.buildbutton("Leech Group", "https://t.me/KOT_LEECH_ZONE")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     LOGGER.info('UID: {} - UN: {} - MSG: {}'.format(update.message.chat.id, update.message.chat.username, update.message.text))
     uptime = get_readable_time((time.time() - botStartTime))
